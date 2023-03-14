@@ -1,3 +1,8 @@
 #!/bin/bash
+
+# Find all files with .gif extension and sort by byte values (case-insensitive)
 find . -type f -iname "*.gif" -printf "%f\n" | sort -f
+
+# End with a new line
 echo
+
